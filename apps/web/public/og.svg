@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#e5243b" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#060608" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="t" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#ffd2d8"/>
+      <stop offset="100%" stop-color="#ff5f73"/>
+    </linearGradient>
+    <linearGradient id="v" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ff5f73"/>
+      <stop offset="1" stop-color="#e5243b"/>
+    </linearGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#060608"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <g transform="translate(80 92)">
+    <path d="M4 6h12l12 28 12-28h12L39 48H25L4 6Z" fill="url(#v)" transform="scale(1.1)"/>
+    <text x="66" y="38" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="600" fill="#f4f4f6">Vampless</text>
+    <rect x="222" y="14" width="150" height="30" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.16"/>
+    <text x="236" y="35" font-family="ui-monospace, Consolas, monospace" font-size="14" fill="#9a9aa6" letter-spacing="2">PILOT · SOLANA</text>
+  </g>
+  <text x="80" y="300" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="96" font-weight="600" fill="#f4f4f6" letter-spacing="-3">One name. One ticker.</text>
+  <text x="80" y="408" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="96" font-weight="600" fill="url(#t)" letter-spacing="-3">One registry.</text>
+  <text x="80" y="480" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" fill="#9a9aa6">Shared token identity registry &amp; launch authorization protocol.</text>
+  <text x="80" y="520" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" fill="#9a9aa6">A reservation made on one launchpad is honored on every other.</text>
+  <g transform="translate(80 560)" font-family="ui-monospace, Consolas, monospace" font-size="14" fill="#9a9aa6" letter-spacing="1.5">
+    <text y="14">NAME · TICKER · RAW IMAGE · PIXEL IMAGE  4 INDEPENDENT CLAIMS, 1 ATOMIC TRANSACTION</text>
+  </g>
+</svg>

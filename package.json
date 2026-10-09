@@ -1,0 +1,23 @@
+{
+  "name": "vampless",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Vampless — shared token identity registry and launch authorization protocol",
+  "license": "MIT",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "services/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @vampless/core && npm run build -w @vampless/api && npm run build -w @vampless/web",
+    "test": "npm run test -w @vampless/core && npm run test -w @vampless/api",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "dev:api": "npm run dev -w @vampless/api",
+    "dev:web": "npm run dev -w @vampless/web"
+  },
+  "engines": {
+    "node": ">=22.12"
+  }
+}

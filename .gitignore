@@ -1,0 +1,41 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# build output
+dist/
+.next/
+out/
+build/
+*.tsbuildinfo
+
+# rust
+target/
+**/*.rs.bk
+
+# solana / anchor
+.anchor/
+test-ledger/
+**/*.so
+
+# data
+*.sqlite
+*.sqlite-journal
+*.db
+services/api/data/
+
+# env
+.env
+.env.*
+!.env.example
+
+# logs / os
+npm-debug.log*
+*.log
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
